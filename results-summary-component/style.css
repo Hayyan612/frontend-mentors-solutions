@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-family: 'Outfit', sans-serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: 450px;
+    width: 650px;
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px 2px hsla(212, 69%, 73%, 0.493)
+}
+
+.leftBox {
+    height: 100%;
+    width: 50%;
+    border-radius: 30px;
+    background-color: hsl(234, 85%, 45%);
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rightBox {
+    height: 100%;
+    width: 50%;
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.rightBox img {
+    position: relative;
+    right: 10px;
+}
+
+ul {
+    list-style: none;
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+li {
+    font-weight: 800;
+    border-radius: 10px;
+    height: 17%;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.name {
+    justify-self: start;
+    position: relative;
+    right: 40px;
+    margin: 20px;
+}
+
+.rightBox h3 {
+    color: hsl(224, 30%, 27%);
+    font-size: x-large;
+    margin-top: 20px;
+    position: relative;
+    left: 35px;
+}
+
+#reaction {
+    color: hsl(0, 100%, 67%);
+}
+
+#memory {
+    color: hsl(39, 100%, 56%);
+}
+
+#verbal {
+    color: hsl(166, 100%, 37%);
+}
+
+#visual {
+    color: hsl(234, 85%, 45%);
+}
+
+#l1 {
+    background-color: hsla(0, 100%, 67%, 8%);
+}
+
+#l2 {
+    background-color: hsla(39, 100%, 56%, 8%);
+}
+
+#l3 {
+    background-color: hsla(166, 100%, 37%, 8%);
+}
+
+#l4 {
+    background-color: hsla(234, 85%, 45%, 8%);
+}
+
+.button {
+    color: white;
+    margin-top: 8px;
+    padding: 15px 30%;
+    font-size: large;
+    background-color: hsl(224, 30%, 27%);
+    border: 2px solid;
+    border-radius: 30px;
+    align-self: center;
+}
+
+.button:hover {
+    background-color: hsl(224, 30%, 27%, 70%);
+}
+
+.leftBox h3 {
+    position: relative;
+    font-size: 22px;
+    color: hsla(0, 0%, 100%, 0.519);
+    margin-top: 30px;
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 40%;
+    width: 55%;
+    border-radius: 100%;
+    top: 40px;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+#scoreD {
+    font-size: xxx-large;
+    color: white;
+    font-weight: 700;
+}
+
+#textD {
+    color: rgba(255, 255, 255, 0.412);
+}
+.review{
+    position: relative;
+    top: 50px;
+    height: 30%;
+    width: 70%;
+    text-align: center;
+}
+.review h2{
+    color: white;
+    margin-bottom: 10px;
+}
+.review p{
+    color: rgba(255, 255, 255, 0.662);
+}
+.attribution {
+    margin-top: 100px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
